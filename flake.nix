@@ -1,18 +1,15 @@
 {
-  description = "KhaneliVim";
+  description = "rrrodzilla nvim-config";
 
   inputs = {
     # NixPkgs (nixos-unstable)
     nixpkgs = {
       url = "github:nixos/nixpkgs/nixpkgs-unstable";
-      # url = "git+file:///home/khaneliman/Documents/github/NixOS/nixpkgs";
     };
 
     # Neovim nix configuration
     nixvim = {
       url = "github:nix-community/nixvim";
-      # url = "git+file:///Users/khaneliman/Documents/github/nixvim";
-      # url = "git+file:///home/khaneliman/Documents/github/nixvim";
       # inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -42,19 +39,19 @@
 
         snowfall = {
           meta = {
-            name = "khanelivim";
-            title = "khanelivim";
+            name = "rrrodzilla";
+            title = "rrrodzilla";
           };
 
-          namespace = "khanelivim";
+          namespace = "rrrodzilla";
         };
       };
     in
     lib.mkFlake {
       alias = {
         packages = {
-          default = "khanelivim";
-          nvim = "khanelivim";
+          default = "rrrodzilla";
+          nvim = "rrrodzilla";
         };
       };
 
