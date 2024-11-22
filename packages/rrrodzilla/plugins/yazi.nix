@@ -1,6 +1,6 @@
 { config, lib, ... }:
 {
-  plugins.yazi.enable = true;
+  plugins.yazi.enable = false;
 
   keymaps = lib.optionals config.plugins.yazi.enable [
     {
