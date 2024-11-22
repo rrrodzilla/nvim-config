@@ -82,10 +82,10 @@ in
             name = "luasnip";
             priority = 750;
           }
-          {
-            name = "copilot";
-            priority = 600;
-          }
+#          {
+#            name = "copilot";
+#            priority = 600;
+#          }
           # TODO: figure out infinite recursion when making conditional
           {
             name = "codeium";
