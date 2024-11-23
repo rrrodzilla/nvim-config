@@ -358,6 +358,13 @@
               action = "<cmd>m '>+1<CR>gv=gv<cr>";
             };
 
+            # Add jk mapping to exit insert mode
+            "jk" = {
+              action = "<Esc>";
+              options = {
+                desc = "Exit insert mode";
+              };
+            };
             # Backspace delete in visual
             "<BS>" = {
               action = "x";
@@ -387,6 +394,13 @@
             };
             "<C-j>" = {
               action = "<C-o>gj";
+            };
+            # Add jk mapping to exit insert mode
+            "jk" = {
+              action = "<Esc>";
+              options = {
+                desc = "Exit insert mode";
+              };
             };
           };
     in

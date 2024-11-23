@@ -54,7 +54,7 @@
     smartcase = true; # Override the 'ignorecase' option if the search pattern contains upper
     #   case characters
     cursorline = true; # Highlight the screen line of the cursor
-    cursorcolumn = false; # Highlight the screen column of the cursor
+    cursorcolumn = true; # Highlight the screen column of the cursor
     signcolumn = "yes"; # Whether to show the signcolumn
     colorcolumn = "100"; # Columns to highlight
     laststatus = 3; # When to use a status line for the last window
@@ -111,7 +111,7 @@
     pumheight = 10;
     # shortmess = { append = { s = true; I = true; }; };
     showmode = false;
-    showtabline = 2;
+    showtabline = 1;
     timeoutlen = 500;
     title = true;
     # viewoptions = { remove = [ "curdir" ]; };
