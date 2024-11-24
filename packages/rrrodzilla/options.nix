@@ -46,7 +46,7 @@
 
     swapfile = false; # Disable the swap file
     modeline = true; # Tags such as 'vim:ft=sh'
-    modelines = 100; # Sets the type of modelines
+    modelines = 5; # Sets the type of modelines
     undofile = true; # Automatically save and restore undo history
     incsearch = true; # Incremental search: show match for partly typed search command
     ignorecase = true; # When the search query is lower-case, match both lower and upper-case
@@ -56,7 +56,7 @@
     cursorline = false; # Highlight the screen line of the cursor
     cursorcolumn = true; # Highlight the screen column of the cursor
     signcolumn = "yes"; # Whether to show the signcolumn
-    colorcolumn = "100"; # Columns to highlight
+    colorcolumn = ""; # Columns to highlight
     laststatus = 3; # When to use a status line for the last window
     fileencoding = "utf-8"; # File-content encoding for the current buffer
     termguicolors = true; # Enables 24-bit RGB color in the |TUI|
