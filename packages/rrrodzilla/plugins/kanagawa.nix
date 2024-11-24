@@ -6,6 +6,9 @@
   colorschemes.kanagawa = {
     settings = {
       theme = "dragon";
+      background = {
+        dark = "dragon";
+      };
     };
   };
 }
