@@ -12,7 +12,7 @@
     };
   };
 
-  colorschemes.catppuccin.enable = true;
+  colorschemes.kanagawa.enable = true;
   highlight.ExtraWhitespace.bg = "red"; # Highlight extra white spaces
   luaLoader.enable = true;
   match.ExtraWhitespace = "\\s\\+$"; # Remove extra white spaces
@@ -53,7 +53,7 @@
     #   patterns
     smartcase = true; # Override the 'ignorecase' option if the search pattern contains upper
     #   case characters
-    cursorline = true; # Highlight the screen line of the cursor
+    cursorline = false; # Highlight the screen line of the cursor
     cursorcolumn = true; # Highlight the screen column of the cursor
     signcolumn = "yes"; # Whether to show the signcolumn
     colorcolumn = "100"; # Columns to highlight
