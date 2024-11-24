@@ -107,7 +107,7 @@
               highlighter = {
                   wilder.pcre2_highlighter(),
                   wilder.lua_fzy_highlighter(),
-              },
+              -- },
               highlights = {
                 accent = wilder.make_hl('WilderAccent', 'Pmenu', {{a = 1}, {a = 1}, {foreground = '#f4468f'}}),
               },

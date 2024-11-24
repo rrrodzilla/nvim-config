@@ -44,6 +44,7 @@ luac.out
 # ░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
 .direnv/*
 .envrc
+.env
 result
 .ccls-cache
 flake
