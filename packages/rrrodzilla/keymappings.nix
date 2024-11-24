@@ -29,6 +29,10 @@
           )
           (
             {
+              "vv" = {
+                action = "<C-v>";
+              };
+
               "<Space>" = {
                 action = "<NOP>";
               };
