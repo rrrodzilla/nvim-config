@@ -104,15 +104,15 @@
     copyindent = true;
     # diffopt = { append = [ "algorithm:histogram" "linematch:60" ]; };
     # fillchars = { eob = " "; };
-    history = 100;
+    history = 1000;
     infercase = true;
     linebreak = true;
     preserveindent = true;
-    pumheight = 10;
+    pumheight = 15;
     # shortmess = { append = { s = true; I = true; }; };
     showmode = false;
     showtabline = 1;
-    timeoutlen = 500;
+    timeoutlen = 300;
     title = true;
     # viewoptions = { remove = [ "curdir" ]; };
     virtualedit = "block";
