@@ -24,6 +24,27 @@
       )
       {
         mode = "n";
+        key = "<leader>tn";
+        action.__raw = ''
+          function()
+            local toggleterm = require('toggleterm.terminal')
+
+            toggleterm.Terminal:new({cmd = 'npm run dev',hidden = false}):toggle()
+          end
+        '';
+        options = {
+          desc = "Run npm dev";
+          silent = false;
+        };
+      }
+    )
+    (lib.mkIf
+      (
+        !config.plugins.snacks.enable
+        || (config.plugins.snacks.enable && !config.plugins.snacks.settings.lazygit.enabled)
+      )
+      {
+        mode = "n";
         key = "<leader>tg";
         action.__raw = ''
           function()
