@@ -171,8 +171,7 @@ in
           buffer = "";
           calc = "";
           cmdline = "";
-          codeium = "󱜙";
-          copilot = "";
+          avante = "󱜙";
           emoji = "󰞅";
           git = "";
           luasnip = "󰩫";
