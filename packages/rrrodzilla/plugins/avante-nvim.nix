@@ -1,6 +1,6 @@
 {
   plugins = {
-    avante-nvim = {
+    avante = {
       enable = true;
     };
   };
