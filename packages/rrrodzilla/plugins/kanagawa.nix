@@ -4,6 +4,8 @@
   };
 
   colorschemes.kanagawa = {
-    theme = "dragon";
+    settings = {
+      theme = "dragon";
+    };
   };
 }
