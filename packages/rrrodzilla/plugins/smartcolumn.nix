@@ -2,7 +2,7 @@
   plugins.smartcolumn = {
     enable = true;
     settings = {
-      colorcolumn = "80";
+      colorcolumn = "";
       disabled_filetypes = [
         "checkhealth"
         "help"
