@@ -297,7 +297,7 @@
         };
 
         pyright = {
-          enable = true;
+          enable = false;
           filetypes = [ "python" ];
         };
 
