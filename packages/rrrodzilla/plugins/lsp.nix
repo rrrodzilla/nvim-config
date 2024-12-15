@@ -301,12 +301,6 @@
           filetypes = [ "python" ];
         };
 
-        ruff = {
-          enable = true;
-          filetypes = [ "python" ];
-          organizeImports = true;
-        };
-
         rust_analyzer = {
           enable = !config.plugins.rustaceanvim.enable;
           filetypes = [ "rust" ];
