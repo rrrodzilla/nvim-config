@@ -305,10 +305,6 @@
           enable = true;
           filetypes = [ "python" ];
           organizeImports = true;
-          lint = {
-            enable = true;
-            preview = true;
-          };
         };
 
         rust_analyzer = {
