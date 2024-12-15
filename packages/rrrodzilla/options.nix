@@ -26,7 +26,7 @@
     # Custom for toggles
     disable_diagnostics = false;
     disable_autoformat = false;
-    spell_enabled = true;
+    spell_enabled = false;
     colorizing_enabled = 1;
     first_buffer_opened = false;
 
@@ -51,7 +51,7 @@
     incsearch = true; # Incremental search: show match for partly typed search command
     ignorecase = true; # When the search query is lower-case, match both lower and upper-case
     #   patterns
-    smartcase = true; # Override the 'ignorecase' option if the search pattern contains upper
+    smartcase = false; # Override the 'ignorecase' option if the search pattern contains upper
     #   case characters
     cursorline = false; # Highlight the screen line of the cursor
     cursorcolumn = true; # Highlight the screen column of the cursor
@@ -61,7 +61,7 @@
     fileencoding = "utf-8"; # File-content encoding for the current buffer
     termguicolors = true; # Enables 24-bit RGB color in the |TUI|
     spelllang = lib.mkDefault [ "en_us" ]; # Spell check languages
-    spell = true; # Highlight spelling mistakes (local to window)
+    spell = false; # Highlight spelling mistakes (local to window)
     wrap = false; # Prevent text from wrapping
 
     # Tab options

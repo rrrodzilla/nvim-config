@@ -238,7 +238,6 @@
           filetypes = [
             "json"
             "jsonc"
-            "twilioserverlessrc"
           ];
         };
 

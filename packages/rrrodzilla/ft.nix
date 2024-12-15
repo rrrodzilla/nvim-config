@@ -1,6 +1,7 @@
 {
   filetype = {
     extension = {
+      "twilioserverlessrc" = "json";
       "avsc" = "json";
       "rasi" = "scss";
       "ignore" = "gitignore";
