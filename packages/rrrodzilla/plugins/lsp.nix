@@ -304,7 +304,6 @@
         ruff = {
           enable = true;
           filetypes = [ "python" ];
-          fixAll = true;
           organizeImports = true;
           lint = {
             enable = true;
