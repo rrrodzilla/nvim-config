@@ -238,6 +238,7 @@
           filetypes = [
             "json"
             "jsonc"
+            "twilioserverlessrc"
           ];
         };
 
@@ -304,6 +305,12 @@
         ruff = {
           enable = true;
           filetypes = [ "python" ];
+          fixAll = true;
+          organizeImports = true;
+          lint = {
+            enable = true;
+            preview = true;
+          };
         };
 
         rust_analyzer = {
